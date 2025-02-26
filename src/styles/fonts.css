@@ -16,6 +16,6 @@
 @font-face {
     font-family: 'Playwrite Italia Moderna';
     src: url('/fonts/PlaywriteITModerna-Regular.ttf') format('truetype');
-    font-weight: 100 900;
+    font-weight: normal;
     font-style: normal;
 }

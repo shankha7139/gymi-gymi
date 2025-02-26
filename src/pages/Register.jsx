@@ -1,5 +1,4 @@
-// RegisterPage.js
-import React, { useState } from "react";
+import { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { collection, addDoc } from "firebase/firestore";
 import { auth, db } from "../firebase";
@@ -34,7 +33,7 @@ const RegisterPage = () => {
       });
 
       navigate("/home");
-    } catch (err) {
+    } catch {
       setError("Failed to register");
     }
   };
