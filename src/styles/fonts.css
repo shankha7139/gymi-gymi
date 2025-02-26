@@ -1,0 +1,21 @@
+/* src/styles/fonts.css */
+@font-face {
+    font-family: 'Bomber Escort';
+    src: url('/fonts/bomberescortexpandital.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url('/fonts/AtkinsonHyperlegibleMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playwrite Italia Moderna';
+    src: url('/fonts/PlaywriteITModerna-Regular.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}

@@ -4,6 +4,11 @@ export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
   	extend: {
+		fontFamily: {
+        'bomber-escort': ['Bomber Escort', 'sans-serif'],
+        'atkinson-hyperlegible': ['Atkinson Hyperlegible Mono', 'monospace'],
+        'playwrite-italia': ['Playwrite Italia Moderna', 'serif'],
+      },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
